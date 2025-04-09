@@ -1,36 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>E-book: A História do Vinho</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desconbrindo o Vinho</title>
   <style>
-    :root {
-      --vinho-escuro: #4b1033;
-      --vinho-claro: #c291a0;
-      --roxo-suave: #a78fbf;
-      --fundo-claro: #fdf7f9;
-      --texto-escuro: #2b1c1c;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: 'Open Sans', sans-serif;
-      background-color: var(--fundo-claro);
-      color: var(--texto-escuro);
-      line-height: 1.6;
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: #fdf6f8;
+      color: #330e26;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
     }
 
-    header {
-      background-color: var(--vinho-escuro);
+    h1 {
+      color: #4b1032;
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+      max-width: 700px;
+      color: #5b2344;
+    }
+
+    .btn {
+      margin-top: 2rem;
+      background: #7b1e42;
       color: white;
-      padding: 1.5rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items:
+      padding: 0.9rem 2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #590f2f;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #996b82;
+    }
+  </style>
+</head>
+<body>
+  <h1>🍷 Desconbrindo o Vinho</h1>
+  <p>Um brinde à sua nova jornada! Este site é só o começo da experiência que vai transformar sua forma de apreciar vinhos. Em breve, um universo de sabor, história e prazer estará ao seu alcance.</p>
+  <button class="btn" onclick="alert('Em breve você poderá garantir seu exemplar!')">Quero receber em primeira mão</button>
+  <footer>
+    &copy; 2025 AcciolyWine. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
